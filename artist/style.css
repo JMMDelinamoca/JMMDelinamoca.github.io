@@ -1,0 +1,22 @@
+h1{
+    background:forestgreen;
+    padding:45px;
+    text-align:center;
+    border:20px 
+
+}
+
+img{
+    width: 100%;
+    opacity: 1;
+    transition: all 1s;
+    max-width:500px;
+}
+
+img:hover{
+    opacity: 1;
+}
+
+p{
+    max-width:500px;
+}
