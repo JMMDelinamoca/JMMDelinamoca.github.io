@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+ *{ 
+    margin: 0;
+ }
+
+      .desktop {
+        display: block;
+      }
+      .tablet,
+      .phone {
+        display: none;
+      }
+
+      @media (max-width: 768px) {
+        .tablet {
+          display: block;
+        }
+        .phone {
+          display: none;
+        }
+        .desktop {
+          display: none;
+        }
+      }
+
+      @media (max-width: 425px) {
+        .tablet {
+          display: none;
+        }
+        .phone {
+          display: block;
+        }
+        .desktop {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="desktop">
+        <img src="./mājaslapa_1-01.svg">
+    </div>
+    <div class="tablet">
+        <img src="./mājaslapa_1-02.svg">
+    </div>
+    <div class="phone">
+        <img src="./mājaslapa_1-03.svg">
+    </div>
+  </body>
+</html>
